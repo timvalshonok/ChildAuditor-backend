@@ -3,7 +3,6 @@ public with sharing class ChildObjectsControllerTest {
 
     @isTest
     public static void getChildRelationshipsTest() {
-        
         Map<String, String> childRelationships = new Map<String, String>{'Contact' => 'AccountId'};
         Map<String, Integer> expected = new Map<String, Integer>{'Contact' => 1};
 
